@@ -1,0 +1,3 @@
+ignored:
+  # バージョン指定なしで apt-get install する
+  - DL3008

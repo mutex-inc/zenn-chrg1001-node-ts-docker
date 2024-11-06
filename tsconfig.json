@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "noEmit": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "checkJs": true
+  },
+  "ts-node": {
+    "swc": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

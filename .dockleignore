@@ -1,0 +1,6 @@
+# 空パスワードを許容する
+DKL-LI-0001
+# DCTは今回は使えない
+CIS-DI-0005
+# HEALTHCHECK は不要
+CIS-DI-0006

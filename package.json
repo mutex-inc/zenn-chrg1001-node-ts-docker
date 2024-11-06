@@ -1,0 +1,31 @@
+{
+  "name": "node-ts-docker",
+  "private": true,
+  "type": "commonjs",
+  "volta": {
+    "node": "22.8.0",
+    "yarn": "4.4.1"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "rm -rf dist && tsc -b tsconfig.build.json",
+    "check:type": "yarn tsc --noEmit",
+    "check": "biome check .",
+    "check:fix": "biome check . --fix",
+    "check:lint": "biome lint .",
+    "check:lint:fix": "biome lint . --fix",
+    "check:format": "biome format .",
+    "check:format:fix": "biome format . --fix"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@swc/core": "1.7.26",
+    "@types/node": "22.9.0",
+    "prettier": "3.3.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  },
+  "dependencies": {
+    "fastify": "5.1.0"
+  }
+}

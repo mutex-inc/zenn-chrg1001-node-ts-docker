@@ -1,0 +1,16 @@
+{
+  "ignorePaths": [
+    "dist",
+    "coverage",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/.vscode/**",
+    "**/__generated__/**",
+    "**/gen/**",
+    "**/package.json",
+    "**/yarn-error.log",
+    "**/yarn.lock"
+  ],
+  "dictionaries": ["softwareTerms", "npm", "typescript", "filetypes"],
+  "words": ["biomejs", "dockle", "fastify", "hadolint", "swcrc"]
+}
