@@ -23,6 +23,7 @@
     "fastify",
     "goodwithtech",
     "hadolint",
-    "swcrc"
+    "swcrc",
+    "Zenn"
   ]
 }

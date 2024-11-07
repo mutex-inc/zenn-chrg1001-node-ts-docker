@@ -1,5 +1,7 @@
 # Node.js + TypeScript における Dockerfile のベストプラクティス
 
+Zennの記事 -> [【2024年版】Dockerfileのベストプラクティスを整理しながらNode.jsで実践する](https://zenn.dev/mutex_inc/articles/nodejs-ts-docker-best-practice)
+
 [![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/)
 [![Linted with Biome](https://img.shields.io/badge/Linted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
 [![Checked with Biome](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
