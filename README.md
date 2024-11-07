@@ -8,7 +8,7 @@
 
 ### node.js のバージョン管理ツール
 
-node.js のバージョン管理ツールとして hadolint を利用しています。
+node.js のバージョン管理ツールとして Volta を利用しています。
 
 - [Volta](https://volta.sh/)
 
@@ -99,7 +99,7 @@ docker scout qv node-ts-docker:0.0.1
 
 ### CIS Docker Benchmarks への準拠チェック
 
-Docker Scout CLI を使用してイメージの脆弱性をチェックします。
+Dockle を使用してイメージの脆弱性をチェックします。
 
 ```bash
 dockle node-ts-docker:0.0.1

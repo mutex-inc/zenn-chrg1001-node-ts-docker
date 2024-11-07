@@ -11,6 +11,18 @@
     "**/yarn-error.log",
     "**/yarn.lock"
   ],
-  "dictionaries": ["softwareTerms", "npm", "typescript", "filetypes"],
-  "words": ["biomejs", "dockle", "fastify", "hadolint", "swcrc"]
+  "dictionaries": [
+    "softwareTerms",
+    "npm",
+    "typescript",
+    "filetypes"
+  ],
+  "words": [
+    "biomejs",
+    "dockle",
+    "fastify",
+    "goodwithtech",
+    "hadolint",
+    "swcrc"
+  ]
 }
