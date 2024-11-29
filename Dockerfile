@@ -42,13 +42,11 @@ RUN curl https://get.volta.sh | bash
 COPY .yarnrc.yml package.json yarn.lock ./
 RUN yarn install --immutable
 
-# ビルド
+# ビルド & 実行時に必要な依存関係のみを再インストール
 COPY tsconfig*.json ./
 COPY src ./src
-RUN yarn build
-
-# 実行時に必要な依存関係のみを再インストール
 RUN <<EOF
+yarn build
 yarn workspaces focus --all --production
 EOF
 
