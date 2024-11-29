@@ -19,10 +19,14 @@
   ],
   "words": [
     "biomejs",
+    "distroless",
     "dockle",
     "fastify",
     "goodwithtech",
     "hadolint",
+    "nonroot",
+    "pipefail",
+    "slimtoolkit",
     "swcrc",
     "Zenn"
   ]

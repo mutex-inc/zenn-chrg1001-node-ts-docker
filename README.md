@@ -38,6 +38,16 @@ CIS Docker Benchmarks への準拠チェックを行うために dockle をイ�
 
 - [goodwithtech/dockle](https://github.com/goodwithtech/dockle)
 
+### mint
+
+ビルドしたイメージの軽量化を行うために mint (docker-slim) をインストールしてください。
+
+- [mintoolkit/mint](https://github.com/mintoolkit/mint)
+
+```bash
+curl -sL https://raw.githubusercontent.com/mintoolkit/mint/master/scripts/install-mint.sh | sudo -E bash -
+```
+
 ### 依存関係のインストール
 
 ```bash
@@ -62,7 +72,6 @@ docker build . \
 docker run \
   --init \
   -p 127.0.0.1:3000:3000 \
-  -e "NODE_ENV=production" \
   --name node-ts-docker \
   node-ts-docker:0.0.1
 ```

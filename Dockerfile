@@ -49,7 +49,6 @@ RUN yarn build
 
 # 実行時に必要な依存関係のみを再インストール
 RUN <<EOF
-rm -rf node_modules
 yarn workspaces focus --all --production
 EOF
 
@@ -68,8 +67,9 @@ WORKDIR ${RUNNER_APP_DIR}
 
 # builder から 実行時に必要なファイルのみをコピー
 COPY --from=builder ${BUILDER_APP_DIR}/dist ./dist
-COPY --from=builder ${BUILDER_APP_DIR}/package.json ${BUILDER_APP_DIR}/yarn.lock ./
 COPY --from=builder ${BUILDER_APP_DIR}/node_modules ./node_modules
+
+ENV NODE_ENV=production
 
 EXPOSE ${APP_PORT}
 
