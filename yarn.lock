@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@biomejs/biome@npm:1.9.4":
@@ -476,9 +476,9 @@ __metadata:
   linkType: hard
 
 "fast-uri@npm:^2.3.0":
-  version: 2.4.0
-  resolution: "fast-uri@npm:2.4.0"
-  checksum: 10c0/300453cfe2f7d5ec16be0f2c8dc5b280edbaca59440b2deb4ab56ac0f584637179e9ee7539d0b70ef0fce9608245ebfa75307c84fa4829b1065c3b7ef7dcf706
+  version: 2.4.7
+  resolution: "fast-uri@npm:2.4.7"
+  checksum: 10c0/9f4dcc11a0ab54e4dec622e705f1f91536074271aef68563bcf1dee3d88ef7f6e9cd81355c42b379e92cbb92f2d5139ab5cafb4e4d11e63c46611102563a16ba
   languageName: node
   linkType: hard
 
